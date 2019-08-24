@@ -1,15 +1,18 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
+  console.log('resume is creating...');
+
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
   await page.goto('http://localhost:3000', { waitUntil: 'networkidle2' });
+
   await page.pdf({
     path: 'resume.pdf',
     format: 'A4',
     printBackground: true,
-    displayHeaderFooter: false
+    displayHeaderFooter: false,
   });
 
   await browser.close();

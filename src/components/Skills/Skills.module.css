@@ -1,0 +1,12 @@
+.Skills {
+}
+
+.Skills__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skills__chip {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
