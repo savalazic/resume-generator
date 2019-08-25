@@ -3,7 +3,7 @@ export default {
     name: 'Sava Lazic',
     title: 'Frontend Developer',
     description:
-      'Software Developer with great passion for "high-level single-threaded, garbage-collected, interpreted (or just-in-time compiled), prototype-based, multi-paradigm, dynamic language with a non-blocking event loop" language.',
+      'Software Developer with great passion for his field. Quick learner that wants to know how things function in-depth with expeirence in variety of frontend frameworks and libraries. Programming, UX and UI perfectionist and lifelong learner.',
     location: 'Pancevo, Serbia',
     birth: '27.01.1994',
   },
