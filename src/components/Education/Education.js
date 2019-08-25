@@ -7,9 +7,12 @@ const Education = () => {
   const { education } = useContext(ResumeContext);
 
   return (
-    <div>
+    <div className={styles.Education}>
       <h2>Education</h2>
-      <div>{education.school}</div>
+      <strong>
+        {education.field}, {education.degree} @ {education.school}
+      </strong>
+      <p>- {education.date}</p>
     </div>
   );
 };

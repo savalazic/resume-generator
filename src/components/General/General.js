@@ -28,7 +28,7 @@ const General = () => {
   const { general, social } = useContext(ResumeContext);
 
   return (
-    <div className={styles.General}>
+    <section className={styles.General}>
       <div className={styles.General__info}>
         <h1>{general.name}</h1>
         <h2>{general.title}</h2>
@@ -45,7 +45,7 @@ const General = () => {
           <div key={key}>{renderSocialLink(key, value)}</div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

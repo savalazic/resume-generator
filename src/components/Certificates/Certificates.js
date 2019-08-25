@@ -7,7 +7,7 @@ const Certificates = () => {
   const { certificates } = useContext(ResumeContext);
 
   return (
-    <div>
+    <div className={styles.Certificates}>
       <h2>Certificates</h2>
       <div>
         {certificates.map(c => (

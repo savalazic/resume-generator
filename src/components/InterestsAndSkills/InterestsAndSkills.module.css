@@ -1,2 +1,14 @@
 .InterestsAndSkills {
+  margin-bottom: var(--base-spacing);
+  grid-area: interests;
+}
+
+.InterestsAndSkills__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.InterestsAndSkills__chip {
+  margin-right: 8px;
+  margin-bottom: 8px;
 }

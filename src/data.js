@@ -40,7 +40,7 @@ export default {
           description:
             'The application is focused on employee satisfaction and company improvements consulting. It is a web-based, mobile-friendly, data-crunching and visualization application that is easy to use and helps in pinpointing good and not so good results of surveys.',
           responsibilities:
-            'developing new and maintaining old features, refactoring angularjs to newest angular version',
+            'developing new and maintaining old features, refactoring angularjs to newest angular version, reviewing code',
         },
         {
           name: '9mCollab',
@@ -111,7 +111,7 @@ export default {
       projects: [],
     },
     {
-      title: 'Freelance - frontend',
+      title: 'Freelance - Frontend',
       company: 'Upwork',
       date: 'Jan 2016 - Jan 2018',
       stack: 'JavaScript, React, Sass',
@@ -176,7 +176,7 @@ export default {
   sideProjects: [
     {
       title: 'Data:re',
-      link: null,
+      link: 'https://app.datare.co',
       date: 'Jan 2019 - present',
       description:
         "Platform that gives you a deeper understanding of the insurance market you're competing with, track insurance products on the market and understand your own pricing in comparison with your competition.",

@@ -1,2 +1,4 @@
 .Education {
+  margin-bottom: var(--base-spacing);
+  grid-area: education;
 }

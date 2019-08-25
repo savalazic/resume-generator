@@ -1,4 +1,6 @@
 .Skills {
+  margin-bottom: var(--base-spacing);
+  grid-area: skills;
 }
 
 .Skills__list {

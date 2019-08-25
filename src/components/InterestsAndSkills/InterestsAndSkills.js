@@ -9,11 +9,13 @@ const InterestsAndSkills = () => {
   const { interestsAndSkills } = useContext(ResumeContext);
 
   return (
-    <div>
+    <div className={styles.InterestsAndSkills}>
       <h2>Interests & Skills</h2>
-      <div>
+      <div className={styles.InterestsAndSkills__list}>
         {interestsAndSkills.map(i => (
-          <Chip key={i}>{i}</Chip>
+          <Chip key={i} className={styles.InterestsAndSkills__chip}>
+            {i}
+          </Chip>
         ))}
       </div>
     </div>

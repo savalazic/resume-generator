@@ -1,3 +1,15 @@
 .App {
-  padding: 40px;
+  padding: 0 40px;
+}
+
+.App__content {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'skills skills '
+    'work work'
+    'sideProjects sideProjects'
+    'education interests'
+    'awards certificates'
+    'awards languages';
 }

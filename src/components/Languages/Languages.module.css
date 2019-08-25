@@ -1,2 +1,4 @@
 .Languages {
+  margin-bottom: var(--base-spacing);
+  grid-area: languages;
 }

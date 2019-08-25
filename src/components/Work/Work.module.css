@@ -1,2 +1,29 @@
 .Work {
+  grid-area: work;
+}
+
+.Work__title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.Work__title h3 {
+  margin-bottom: 0;
+}
+
+.Work__item {
+  margin-bottom: 32px;
+}
+
+.Work__projects {
+}
+
+.Work__projects li {
+  margin-bottom: 8px;
+}
+
+.Work__project-wrapper {
+  padding-left: 8px;
 }

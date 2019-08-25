@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <div className={styles.Skills}>
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <div className={styles.Skills__list}>
         {skills.map(s => (
           <Chip className={styles.Skills__chip} key={s}>

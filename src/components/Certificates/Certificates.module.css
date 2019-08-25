@@ -1,2 +1,4 @@
 .Certificates {
+  margin-bottom: var(--base-spacing);
+  grid-area: certificates;
 }

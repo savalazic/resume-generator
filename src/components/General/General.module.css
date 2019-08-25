@@ -1,9 +1,17 @@
 .General {
   border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
 }
 
 .General__info {
+  width: 63%;
 }
 
-.General__social {
+.General__info p {
+  margin-top: 8px;
+}
+
+.General__social a {
+  margin-bottom: 5px;
 }

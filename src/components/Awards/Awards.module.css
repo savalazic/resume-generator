@@ -1,2 +1,8 @@
 .Awards {
+  margin-bottom: var(--base-spacing);
+  grid-area: awards;
+}
+
+.Awards__item {
+  margin-bottom: 8px;
 }

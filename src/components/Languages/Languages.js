@@ -7,11 +7,13 @@ const Languages = () => {
   const { languages } = useContext(ResumeContext);
 
   return (
-    <div>
+    <div className={styles.Languages}>
       <h2>Languages</h2>
       <div>
         {languages.map(l => (
-          <div key={l.language}>{l.language}</div>
+          <div key={l.language}>
+            {l.language} - {l.proficiency}
+          </div>
         ))}
       </div>
     </div>

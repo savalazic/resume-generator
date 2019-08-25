@@ -21,14 +21,16 @@ const App = () => {
   return (
     <div className={styles.App}>
       <General />
-      <Work />
-      <Skills />
-      <Awards />
-      <InterestsAndSkills />
-      <Languages />
-      <Certificates />
-      <Education />
-      <SideProjects />
+      <section className={styles.App__content}>
+        <Skills />
+        <Work />
+        <SideProjects />
+        <Education />
+        <Awards />
+        <InterestsAndSkills />
+        <Certificates />
+        <Languages />
+      </section>
     </div>
   );
 };
