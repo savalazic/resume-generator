@@ -4,18 +4,23 @@ const puppeteer = require('puppeteer');
   console.log('resume is creating...');
 
   const browser = await puppeteer.launch();
-  const page = await browser.newPage();
 
-  await page.goto('http://localhost:3000', { waitUntil: 'networkidle2' });
+  try {
+    const page = await browser.newPage();
 
-  await page.pdf({
-    path: 'resume.pdf',
-    format: 'A4',
-    printBackground: true,
-    displayHeaderFooter: false,
-  });
+    await page.goto('http://localhost:1234', { waitUntil: 'networkidle2' });
 
-  await browser.close();
+    await page.pdf({
+      path: 'resume.pdf',
+      format: 'A4',
+      printBackground: true,
+      displayHeaderFooter: false,
+    });
 
-  console.log('resume.pdf is created!');
+    console.log('resume.pdf is created!');
+  } catch (err) {
+    console.error(err.message);
+  } finally {
+    await browser.close();
+  }
 })();

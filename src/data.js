@@ -27,10 +27,25 @@ export default {
   },
   work: [
     {
+      title: 'Sofware Engineer',
+      company: 'Element451',
+      location: 'Belgrade, Serbia',
+      date: 'Oct 2019 - Present',
+      stack: 'TypeScript, Angular, Node, NestJS, GraphQL, Redux, Sass',
+      projects: [
+        {
+          name: 'Element451 CRM',
+          link: 'https://element451.com/',
+          responsibilities:
+            'implementation of new features and maintenance of old features',
+        }
+      ]
+    }
+    {
       title: 'Frontend Developer',
       company: 'High Tech Engineering Center',
       location: 'Belgrade, Serbia',
-      date: 'May 2018 - present',
+      date: 'May 2018 - Oct 2019',
       stack:
         'TypeScript, Angular, React, React Native, Redux, redux-saga, Sass, Jest, Storybook',
       projects: [
