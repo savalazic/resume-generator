@@ -40,6 +40,13 @@ export default {
             'implementation of new features and maintenance of old features',
         }
       ]
+    },
+    {
+      title: 'Senior Frontend Developer',
+      company: 'Bioclinica',
+      location: 'Belgrade, Serbia',
+      date: 'Jul 2020 - Present',
+      stack: 'TypeScript, Angular, Sass'
     }
     {
       title: 'Frontend Developer',
